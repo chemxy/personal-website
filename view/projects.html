@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!--header and navbar -->
+    <div class="sticky-top">
+        <div class="jumbotron jumbotron-fluid text-center bg-white" style=" margin-bottom:0 ">
+            <p>HELLO WORLD!</p>
+
+        </div>
+        <!--nav var expanded-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                <li class="nav-item ">
+                    <a class="nav-link  " href="index.html ">ABOUT ME</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <!--nav bar collapsed-->
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="resume.html ">RESUME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html ">PROJECTS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="# ">PHOTOGRAPHS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html ">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+    <!--end header and navbar-->
+
+    <!--main contents-->
+    <div class="main">
+        <div class="container" style="margin-top:30px">
+            <div class="row">
+
+                <div class="col-sm-8">
+                    <div class="section" style="margin-top:10px">
+                        <h2>PROJECTS EXPERIENCE</h2>
+                        <br>
+                    </div>
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">personal website</h2>
+                        <h5>Personal Project, 2020</h5>
+                        <p>Built this personal website in html/css, using javascript, bootstrap 4, angularJs. </p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Web-based Application</h2>
+                        <h5>Personal Project, 2020</h5>
+                        <p>Built a web application that allows users to login and manage (see, post, delete) forums, using NodeJS, REST API and Mongodb database</p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Multiple Python Games</h2>
+                        <h5>Personal Project, 2020</h5>
+                        <p>Games such as Snake, AvoidBombs that were developed in Python. Utilized python packages including pygame, time, random, using object-oriented methods in pygame such as blit(), display.update() to show render the background and
+                            animations, and event.get() to get user keyboard input.</p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Simple AI Agents</h2>
+                        <h5>Course Project CSC421, 2019</h5>
+                        <p>A intelligent agent dog that can automatically percieves the enviroment, find water and food, mark trees. Implmented in Jupyter Notebook, using Python and some utility functions from AIMA.</p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Simple Predictor on Heart Disease</h2>
+                        <h5>Course Project SENG474, 2019</h5>
+                        <p>A model written in Python that makes simple predictions on heart disease based on the analysis of patients statistics dataset, implmented with illustration using boxplot(), data normalization, logistic regression and confusion
+                            matrix. </p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Requirements Engineering</h2>
+                        <h5>Course Project SENG321, 2019</h5>
+                        <p>As client, designed a proposal (RFP) for Warrantied Product Tracking System. As designer, designed an over- 100-page solution report for Disaster Continuity Planning System, including elicitation, requirements (RD), specifications
+                            (RSD), use cases, UML diagrams, low fidelity prototypes using Balsamic Mockup and high fidelity prototypes using Adobe XD. </p>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <div class="container" style="background-color: beige; margin-bottom:40px;padding-top:30px">
+                        <h2 class="text-uppercase">Software Archtechture Analysis</h2>
+                        <h5>Course Project SENG480A, 2019</h5>
+                        <p>Analyze and document the architecture of ClusterFuzz, an open-source application developed by Google, including identifying possible stakeholders and business goals, privacy and ethics report, architecturally significant requirements,
+                            module views, code quality and techical debt report.</p>
+                        <hr>
+                        <br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class=" jumbotron jumbotron-fluid bg-light " style="margin-bottom:0; margin-top:100px ">
+        <div class="container ">
+            <!--<h1 class="display-4 ">Fluid jumbotron</h1> -->
+            <p class="lead ">contact info</p>
+        </div>
+    </div>
+</body>
+
+</html>
