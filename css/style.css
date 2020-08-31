@@ -1,0 +1,206 @@
+/*
+    Some of the contents are from:
+    Source: W3layout
+    Source URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+    
+    Revised by : xingyun chen
+*/
+
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    background: #fff;
+}
+
+body {
+    left: 50%;
+}
+
+
+}
+
+/* -------------------header----------------------*/
+.header {
+    margin: 0 2em;
+}
+.header-left {
+    float: left;
+    width: 50%;
+}
+.header-right {
+    float: right;
+    width: 40%;
+}
+.my-name {
+    background: #da8a11c4;
+    color: #fff;
+    padding: 35px 30px 10px 20px;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 4em;
+    border-bottom: 9px solid #000;
+}
+.contact-header ul {
+    background: #000;
+    color: #fff;
+    padding: 1em 1em;
+    text-align: center;
+}
+.contact-header ul li {
+    color: #fff;
+    display: inline-block;
+}
+.role {
+    color: #333;
+    font-size: 2.5em;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: right;
+}
+
+/*------------------ content -----------------------------------------*/
+#main-resume {
+    margin-top: 20px;
+}
+.content {
+    clear: left;
+    padding: 1em 2em;
+}
+.subtittle {
+    padding: 1em 0em 0em 0em;
+    clear: left;
+    /*padding-top: 1em; */
+    /* margin-top: 2em;*/
+    
+    color: #333;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.container1 {
+    margin-top: 1em;
+    border-left: 10px solid #000;
+    margin-bottom: 1em;
+}
+.container2 {
+    clear: left;
+    padding: 1em 0em 0em 0;
+}
+
+/*------------------ personal info -----------------------------------------*/
+.personal-info {
+    line-height: 1.5em;
+    color: #999;
+    font-weight: 300;
+    padding-left: 0em;
+}
+.container1 p {
+    padding-left: 1em;
+}
+
+/*------------------ work experience  -----------------------------------------*/
+.col1 {
+    border-left: 10px solid #000;
+    float: left;
+    width: 15%;
+    padding-bottom: auto;
+}
+.col1 h5,
+.col1 p {
+    padding: 0em 1em 1em 1em;
+}
+.col2 {
+    float: left;
+    width: 60%;
+}
+.col2 h4 {
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.col2 p {
+    line-height: 1.5em;
+    color: #999;
+    font-weight: 300;
+}
+.col3 {
+    float: right;
+    width: 15%;
+}
+.col3 p {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    background: #da8a11c4;
+    padding: 8px 0px;
+    text-align: center;
+    border-bottom: 4px solid #000;
+}
+
+/*------------------------tech skills---------------------------*/
+.sub-skill {
+    padding: 1em 0 0 0;
+    float: left;
+    width: 33%;
+}
+.skill-list {
+    border-left: 11px solid #000;
+    padding-left: 35px;
+}
+ul.skill-list li {
+    padding: 0.3em 0;
+    color: #333;
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+/*------------------ conatct info  -----------------------------------------*/
+.contact {}
+.contact-list {
+    padding-left: 2.3em;
+    ;
+}
+ul.contact-list li {
+    padding: 0.3em 0;
+    color: #333;
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+/*------------------ footnote  -----------------------------------------*/
+.footnote {
+    padding-left: 1em;
+    padding-top: 2em;
+    text-align: center;
+}
+.footnote p {
+    color: #999;
+    font-size: 0.9em;
+}
+.footnote p a {
+    color: #999;
+}
+.footnote p a:hover {
+    color: #da8a11c4;
+}
