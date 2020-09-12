@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title>Bootstrap 4 Website Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
 
-<body>
+<body ng-app="">
     <!--header and navbar -->
     <div class="sticky-top">
         <div class="jumbotron jumbotron-fluid text-center bg-white" style=" margin-bottom:0 ">
@@ -23,13 +24,13 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white ">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                 <li class="nav-item ">
-                    <a class="nav-link active " href="index.html ">ABOUT ME</a>
+                    <a class="nav-link active " href="index.html">ABOUT ME</a>
                 </li>
             </ul>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <!--nav bar collapsed-->
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -37,18 +38,13 @@
                         <a class="nav-link " href="resume.html">RESUME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="projects.html ">PROJECTS</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href="# ">PHOTOGRAPHS</a>
+                        <a class="nav-link " href="projects.html">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="contact.html ">CONTACT</a>
+                        <a class="nav-link " href="contact.html">CONTACT</a>
                     </li>
                 </ul>
-
             </div>
-
         </nav>
     </div>
     <!--end header and navbar-->
@@ -58,9 +54,11 @@
 
         <div class="row ">
             <div class="col ">
-                <div class="container " style="padding-top:30px; ">
+                <div class="container " style="padding-top:30px;" ng-init="imageLink='../images/IMG_E2038.jpg'">
                     <!--<image src="../image/IMG_E2047.jpg " style="width:540px;height:720px; "> -->
-                    <image src="/images/IMG_E2038.jpg " style="width:480px;height:720px; ">
+                    <!--<image src="images/IMG_E2038.jpg " style="width:480px;height:720px; ">-->
+                    <img ng-src="{{imageLink}}" alt="is angularjs active>?: {{imageLink}}" style="width:480px;height:720px; " />
+
                 </div>
             </div>
             <div class="col ">
@@ -80,9 +78,18 @@
     <!--footer-->
     <div class=" jumbotron jumbotron-fluid bg-light " style="margin-bottom:0; margin-top:100px ">
         <div class="container ">
-            <p class="lead ">contact info</p>
+            <p class="font-weight-light">Contact Info</p>
+            <text class="font-weight-light"><span class="glyphicon glyphicon-envelope"></span>Mobile: 250-885-7515  &nbsp | &nbsp</text>
+
+            <text class="font-weight-light">Email: chemxywork@gmail.com</text>
+            <br>
+            <text class="font-weight-light">Github: https://github.com/chemxy  </text>
+            <br>
+
+            <text class="font-weight-light">Linkedin: https://www.linkedin.com/in/chemxy</text>
         </div>
     </div>
+    <!--end footer-->
 </body>
 
 </html>
