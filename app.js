@@ -3,7 +3,6 @@ const app = express();
 const path = require('path');
 const router = express.Router();
 
-app.set('view engine', 'html');
 
 app.use(express.static(__dirname));
 //Store all HTML files in view folder.
