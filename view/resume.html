@@ -15,25 +15,26 @@
     <!--header and navbar -->
     <div class="sticky-top">
         <div class="jumbotron jumbotron-fluid text-center bg-white" style=" margin-bottom:0 ">
-            <p>HELLO WORLD!</p>
+            <p>WELCOME!</p>
 
         </div>
         <!--nav var expanded-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white ">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
                 <li class="nav-item ">
-                    <a class="nav-link active " href="index.html">ABOUT ME</a>
+                    <a class="nav-link  " href="index.html">ABOUT ME</a>
                 </li>
             </ul>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!--nav bar collapsed-->
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item ">
-                        <a class="nav-link " href="resume.html">RESUME</a>
+                        <a class="nav-link active" href="resume.html">RESUME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="projects.html">PROJECTS</a>
@@ -53,44 +54,91 @@
             <div class="row">
 
                 <div class="col-sm-8">
+                    <!---------------- work experience ------------------->
                     <div class="section" style="margin-top:10px">
                         <h2>WORK EXPERIENCE</h2>
                         <br>
                     </div>
+                    <!-- work experience 2-->
                     <div class=" container " style="background-color: beige; margin-bottom:40px;padding-top:30px ">
-                        <h2 class="text-uppercase">Software Developer Co-op</h2>
-                        <h5>Lijin Sciense – China, May 2020 – Aug 2020</h5>
-                        <br>
-                        <p>Software Developer, the work is listed but not limited to:</p>
-                        <li>
-                            Assistant in developing Wechat mini-programs. Programming using JavaScrpt, JSON, WXML/WXSS (frames developed by Wechat company) and Wechat cloud database.
-                        </li>
-                        <li>Testing, bug fixing and document report.</li>
+                        <div id="work-exp-2">
+                            <h3 class="text-capitalize">Product Designer & Developer Co-op</h3>
+                            <h5 class="font-weight-normal">FROMASTERA DESIGN LTD, Vancouver, BC</h5>
+                            <h6 class="font-weight-normal font-italic">Sep 2020 – Jan 2021 </h6>
+                            <p>
+                                <li>
+                                    Designed and implemented hardware products related to embedded systems such as full
+                                    electronic circuits.
+                                </li>
+                                <li>
+                                    Developed and implemented relevant software products such as control systems and
+                                    bluetooth support applications.
+                                </li>
+                                <li>Main technologies and programming languages used are C, JavaScript, XML and Kotlin.
+                                </li>
+                            </p>
+                        </div>
                         <hr>
                         <br>
                     </div>
 
+                    <!-- work experience 1-->
+                    <div class=" container " style="background-color: beige; margin-bottom:40px;padding-top:30px ">
+                        <div id="work-exp-1">
+                            <h3 class="text-capitalize">software developer co-op</h3>
+                            <h5 class="font-weight-normal">LIJIN TECHNOLOGY DEVELOPMENT CO., LTD, China</h5>
+                            <h6 class="font-weight-normal font-italic"> May 2020 – Sep 2020</h6>
+                            <p>
+                                <li>
+                                    Designed and developed a web-based Wechat mini-program from scratch and connected it
+                                    to the Wechat cloud database.
+                                </li>
+                                <li>
+                                    Main technologies used are Wechat developer tools, WXML, WXSS, JSON and JavaScript.
+                                </li>
+                            </p>
+                        </div>
+                        <hr>
+                        <br>
+                    </div>
+
+                    <!-------------------- technical skills--------------------->
                     <div class="section " style="margin-top:60px ">
                         <h2>TECHNICAL SKILLS</h2>
                         <br>
                     </div>
                     <div class="container " style="background-color: beige; margin-bottom:40px;padding-top:30px ">
-                        <p><b>Languages:</b> Java, Python, C, JavaScript, HTML, CSS, C++, SQL, WXML, WXSS, C#</p>
-                        <p><b>Tools:</b> Jupyter Notebook, Virtual Machines, Github, MS Office Tools, Mongodb, MySQL, Matlab, Bootstrap, REST, ExpressJs, Unity, Andriod Studio, Balsamic, Adobe XD</p>
-                        <p><b>Systems:</b> Windows OS, Unix</p>
+                        <p id="skill-set-1">
+                        <h5><b>Web & Database technologies:</b></h5>
+                        <text>AngularJS, JavaScript, Bootstrap 4, HTML/CSS, NodeJS, ExpressJS, SQL and Mongodb.</text>
+                        </p>
+                        <p id="skill-set-2">
+                        <h5><b>Programming Languages:</b></h5>
+                        <text>Python, Java, C and C++.</text>
+                        </p>
+                        <p id="skill-set-3">
+                        <h5><b>Development Tools:</b></h5>
+                        <text>Github, MS Office Suite, Matlab, InVision, Adobe XD and Virtual Machines.</text>
+                        </p>
                         <hr>
                         <br>
                     </div>
 
+                    <!-------------------- relevant courses--------------------->
                     <div class="section " style="margin-top:60px ">
                         <h2>RELEVANT COURSES</h2>
                         <br>
                     </div>
                     <div class="container " style="background-color: beige; margin-bottom:40px;padding-top:30px ">
 
-                        <p class="font-weight-light">Intro AI, Machine Learning, SQL, Database, Data Mining, Systems for Massive Database, Statistics, Refactoring, Software Archtecture and Design, Software Testing, HCI and UI Design, Requirements Engineering, Social and Professional
-                            Laws, Algorithms and Data Structures, Logic, Security Engineering, Computer Network, Assembly, Multimedia Systems, Operating Systems, Linear Algebra , Signal Processing, Control Thoery, Embedded Systems, Microprocessor-based
-                            Systems
+                        <p class="font-weight-light">Intro AI, Machine Learning, SQL, Database, Data Mining, Systems for
+                            Massive Database, Statistics, Refactoring, Software
+                            Architecture and Design, Software Testing, HCI and UI Design, Requirements Engineering,
+                            Social and Professional Laws,
+                            Algorithms and Data Structures, Logic, Security Engineering, Computer Network, Assembly,
+                            Multimedia Systems, Operating
+                            Systems, Linear Algebra , Signal Processing, Control Theory, Embedded Systems,
+                            Microprocessor-based Systems
                         </p>
                         <hr>
                         <br>
@@ -106,11 +154,10 @@
     <div class=" jumbotron jumbotron-fluid bg-light " style="margin-bottom:0; margin-top:100px ">
         <div class="container ">
             <p class="font-weight-light">Contact Info</p>
-            <text class="font-weight-light">Mobile: 250-885-7515  &nbsp | &nbsp</text>
 
             <text class="font-weight-light">Email: chemxywork@gmail.com</text>
             <br>
-            <text class="font-weight-light">Github: https://github.com/chemxy  </text>
+            <text class="font-weight-light">Github: https://github.com/chemxy </text>
             <br>
 
             <text class="font-weight-light">Linkedin: https://www.linkedin.com/in/chemxy</text>
