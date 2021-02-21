@@ -17,8 +17,6 @@ app.use("/projects", projects);
 var contact = require('./routes/contact');
 app.use('/contact', contact);
 
-// app.use(express.static(__dirname + "/view"));
-
 //use static image source
 app.use(express.static(__dirname + '/images'));
 
