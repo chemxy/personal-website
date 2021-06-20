@@ -29,7 +29,7 @@ app.get('/contact.html/form-submitted', function (req, res) {
     res.send("form submitted!");
 });
 
-var server = app.listen(3000, "10.0.0.253", function () {
+var server = app.listen(3000, "localhost", function () {
     console.log('Running at Port 3000');
     console.log(server.address().address);
 });
