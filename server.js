@@ -21,7 +21,7 @@ app.use('/contact', contact);
 app.use(express.static(__dirname + '/images'));
 
 app.get("/", function (req, res) {
-    res.sendFile(path.resolve(__dirname + "/view/index.html"));
+    res.sendFile(path.join(__dirname, "view", "index.html"));
 });
 
 app.get('/contact.html/form-submitted', function (req, res) {
@@ -29,8 +29,8 @@ app.get('/contact.html/form-submitted', function (req, res) {
     res.send("form submitted!");
 });
 
-var server = app.listen(3000, "localhost", function () {
-    console.log('Running at Port 3000');
+var server = app.listen(3030, "localhost", function () {
+    console.log('Running server');
     console.log(server.address().address);
 });
 
