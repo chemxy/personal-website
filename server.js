@@ -29,8 +29,10 @@ app.get('/contact.html/form-submitted', function (req, res) {
     res.send("form submitted!");
 });
 
-var server = app.listen(3030, "localhost", function () {
-    console.log('Running server');
-    console.log(server.address().address);
+var port = process.env.PORT || 3030;
+
+var server = app.listen(port, "localhost", function () {
+    console.log('Running server on port' + port);
+    console.log('server ip: ' + server.address().address);
 });
 
