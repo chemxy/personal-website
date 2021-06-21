@@ -1,7 +1,7 @@
 {
-  "name": "personalwebsite",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "做一个personal website",
+  "description": "personal website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -6,7 +6,7 @@ const router = express.Router();
 var path = require('path');
 
 router.get('/', function (req, res) {
-    res.sendFile(path.resolve(__dirname + '/../view/resume.html'));
+    res.sendFile(path.join(__dirname, '..', 'public', 'resume.html'));
 });
 
 

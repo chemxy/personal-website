@@ -1,5 +1,3 @@
-var fs = require("fs"); //nodejs file server
-
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -21,7 +19,7 @@ app.use('/contact', contact);
 app.use(express.static(__dirname + '/images'));
 
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "view", "index.html"));
+    res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 app.get('/contact.html/form-submitted', function (req, res) {
