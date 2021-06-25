@@ -5,6 +5,7 @@ import Projects from './components/projects';
 import Resume from './components/resume';
 import Footer from './components/footer';
 import Header from './components/header';
+import Contact from './components/contact';
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -24,6 +25,7 @@ function App() {
             <Route path="/index" component={Home} />
             <Route path="/resume" component={Resume} />
             <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </Router>
