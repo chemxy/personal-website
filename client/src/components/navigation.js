@@ -16,8 +16,8 @@ class Navigation extends React.Component {
                             <Nav.Link href="/resume">WORK</Nav.Link>
                             <Nav.Link href="/projects">PROJECTS</Nav.Link>
                             <Nav.Link href="/contact">CONTACT</Nav.Link>
-                            <NavDropdown title="More" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Download Resume</NavDropdown.Item>
+                            <NavDropdown title="More">
+                                <NavDropdown.Item href="#download-resume">Download Resume</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
